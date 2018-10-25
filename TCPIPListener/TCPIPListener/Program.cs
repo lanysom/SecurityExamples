@@ -43,9 +43,6 @@ namespace TCPIPListener
                 str.Write(Encoding.ASCII.GetBytes(cmd), 0, cmd.Length);
 
             } while (true);
-
-
-
         }
     }
 }
